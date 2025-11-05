@@ -1,0 +1,21 @@
+{
+  "name": "job-portal-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+  "dev": "nodemon app.js",
+  "seed:more": "node scripts/seed_more_jobs.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.0",
+    "multer": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
